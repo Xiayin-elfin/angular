@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html  ng-app="myapp" ng-controller="mycontroller">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/MyModule.js"></script>
+    <script src="js/Myservice.js"></script>
+    <script src="js/MyController.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div class="div_bg">
+    <div class="div_title">
+        <h1 class="text-center">图书管理系统</h1>
+    </div>
+    <div class="div_left pull-left">
+        <ul class="list-unstyled">
+            <li class="text-center li_title" ng-repeat="data in titleinfo" ng-click="click_liinfo($index)">{{data.title}}
+                <ul class="ul_child list-unstyled">
+                    <li class="li_child text-center" ng-repeat="a in data.child"><a href="#{{a.action}}">{{a.title}}</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="div_right" ng-view=""></div>
+</div>
+</body>
+</html>

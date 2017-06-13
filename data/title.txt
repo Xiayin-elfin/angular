@@ -1,0 +1,17 @@
+﻿[
+{
+ "title":"图书分类",
+ "child":{"txt":{"title":"科学分类","action":"/kexue","leixing":"科学"},"txt1":{"title":"历史分类","action":"/lishi","leixing":"历史"},"txt2":{"title":"人文分类","action":"/renwen","leixing":"人文"},"txt3":{"title":"教科分类","action":"/jiaoke","leixing":"教科"}},
+ "show":false
+ },
+ {
+ "title":"图书管理",
+ "child":{"txt":{"title":"图书信息","action":"/xinxi"},"txt1":{"title":"添加图书","action":"/tianjia"},"txt2":{"title":"修改图书","action":"/xiugai"},"txt3":{"title":"删除图书","action":"/shanchu"}},
+ "show":false
+ },
+ {
+ "title":"图书购买",
+ "child":{"txt":{"title":"购物车","action":"/gouwu"}},
+ "show":false
+ }
+]

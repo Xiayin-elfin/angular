@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div class="lishi">
+    <div class="title_p h4" style="line-height: 30px;padding-left: 30px">Book分类页面</div>
+    <div class="lishipage" style="height: auto;overflow: hidden">
+        <div class="lishi_left pull-left" style="width: 15%;height:400px;">
+            <ul class="list-unstyled">
+                <li ng-repeat="lishi in lishidata" class="li_lishi_fenlei text-center"><a href="JavaScript:void(0)" ng-click="clicklishibooks($index)">{{lishi.name}}</a></li>
+            </ul>
+        </div>
+        <div class="lishi_right" style="width: 85%">
+            <div class="pull-left" style="width: 28%;margin-left: 100px">
+                <img src="image/5.jpg" alt="" style="width: 120%;margin-left: -40px"/>
+                <p class="text-center h3" >{{lishidetalis.name}}</p>
+                <p class="text-center h4" >{{lishidetalis.author}}</p>
+            </div>
+            <div class="pull-right" style="line-height: 30px">
+                <p>价钱:{{lishidetalis.detailinfo.price|currency:"￥"}}</p>
+                <p>出版日期:{{lishidetalis.detailinfo.time}}</p>
+                <p>总页数:{{lishidetalis.detailinfo.totalpage}}</p>
+                <p>编号:{{lishidetalis.detailinfo.bookid}}</p>
+                <p>出版地址:{{lishidetalis.detailinfo.address}}</p>
+                <p>简介:</p>
+                <p>{{lishidetalis.detailinfo.title}}</p>
+                <p>
+                    <button class="btn btn-default" ng-click="numclick('-')">-</button>
+                    <span style="padding: 5px 5px ">{{num}}</span>
+                    <button class="btn btn-default" ng-click="numclick('+')">+</button>
+                </p>
+                <p>
+                    <button class="btn btn-primary" ng-click="insertShop(bookdeatils)">加入购物车</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

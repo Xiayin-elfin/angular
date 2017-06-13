@@ -1,0 +1,118 @@
+a{
+    color: black;
+}
+.div_bg{
+    border: 1px solid black;
+    height: auto;
+    overflow: hidden;
+}
+.div_title{
+    border-bottom: 1px solid black;
+}
+.div_left{
+    width: 20%;
+    border-right: 1px dashed  silver;
+    height: 400px;
+}
+.div_right{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+}
+.li_title{
+    font-size: 20px;
+    line-height: 50px;
+}
+.ul_child{
+    display: none;
+}
+.li_child{
+    font-size: 15px;
+    line-height: 33px;
+    width: 100%;
+    margin-top: -2%;
+}
+.div_login{
+    width: 86%;
+    border: 1px solid green;
+}
+.li_fenli,.li_lishi_fenlei,.li_renwen_fenlei,.li_jiaoke_fenlei{
+    line-height: 30px;
+    font-size: 18px;
+}
+.xinxi_table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.xinxi_table td{
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid silver;
+}
+.ul_xinxi{
+    width: 55%;
+    border:1px solid silver;
+}
+.li_xinxi{
+    line-height: 50px;
+    border-bottom: 1px solid silver;
+}
+.li_xinxi:first-child{
+    background-color: #1068BA;
+}
+.li_xinxi:last-child{
+    border-bottom: none;
+}
+.li_xinxi{
+    width: 100%;
+}
+.li_xinxi:hover{
+    color: white;
+    background-color: #1068BA;
+    text-decoration: none;
+}
+.form_tianjia{
+    width:53%;
+}
+.ul_update{
+    width: 50%;
+    border: 1px solid silver;
+}
+.li_update{
+    padding: 3px 0px;
+    font-size: 16px;
+    width: 100%;
+    border-bottom: 1px solid silver;
+}
+.li_update:hover{
+    color: white;
+    cursor: pointer;
+    background-color:#1068BA
+}
+.li_update:first-child{
+    color: white;
+    background-color:#1068BA;
+}
+.li_update:last-child{
+    border-bottom: none;
+}
+.ul_num{
+    width: 83%;
+}
+.li_num{
+    float: left;
+    color: white;
+    margin:3% 1%;
+    padding: 1% 2%;
+    cursor: pointer;
+    background-color: rgba(38, 154, 188, 0.56);
+}
+.li_del{
+    float: left;
+    color: white;
+    margin: 1%;
+    padding: 0.5% 1%;
+    cursor: pointer;
+    background-color: rgba(38, 154, 188, 0.56);
+}

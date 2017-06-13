@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div class="row">
+    <div class="col-lg-4">
+        <ul class="list-unstyled ul_xinxi text-center">
+            <li ng-repeat="xinxi in titleinfo[0].child" class="h4 li_xinxi">{{xinxi.title}}</li>
+        </ul>
+    </div>
+    <div class="col-lg-7 pull-right">
+        <table class="xinxi_table ">
+            <tr class="text-center">
+                <td>序号</td>
+                <td>书名</td>
+                <td>作者</td>
+                <td>类型</td>
+                <td>出日版期</td>
+            </tr>
+            <tr class="text-center" ng-repeat="a in bookInfo">
+                <td>{{a.id}}</td>
+                <td>{{a.name}}</td>
+                <td>{{a.author}}</td>
+                <td>{{a.leixing}}</td>
+                <td>{{a.detailinfo.time}}</td>
+            </tr>
+        </table>
+        <ul class="list-unstyled ul_num center-block">
+            <li ng-repeat="num in pageNumArray" ng-click="click_li($index)" class="li_num">{{num}}</li>
+            <li class="li_num">总页数:{{totlepage}}</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

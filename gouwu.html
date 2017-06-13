@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+<style>
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td{
+        text-align: center;
+        line-height: 30px;
+        border: 1px solid silver;
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <td>序号</td>
+        <td>书名</td>
+        <td>价钱</td>
+        <td>数量</td>
+        <td>操作</td>
+    </tr>
+    <tr ng-repeat="book in shopbook">
+        <td>{{book.id}}</td>
+        <td>{{book.name}}</td>
+        <td>{{book.bookinfo.price}}</td>
+        <td>{{book.num}}</td>
+        <td>
+            <button class="btn btn-default" ng-click="clickdelete($index)">删除</button>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

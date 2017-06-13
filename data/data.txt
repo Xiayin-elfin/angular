@@ -1,0 +1,235 @@
+﻿[
+{
+"id":"1",
+"type":"lishi",
+"leixing":"历史",
+"name":"红楼梦",
+"author":"曹雪芹",
+"img":"1.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2017-5-7",
+   "address":"西安市电子二路C座",
+   "price":"199",
+   "totalpage":"1000",
+   "bookid":"213131",
+   "title":"曹老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"2",
+"type":"lishi",
+"leixing":"历史",
+"name":"三国演义",
+"author":"罗贯中",
+"img":"1.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2017-5-7",
+   "address":"西安市电子二路C座",
+   "price":"199",
+   "totalpage":"269",
+   "bookid":"213131",
+   "title":"罗老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"3",
+"type":"kexue",
+"name":"自然科学",
+"leixing":"科学",
+"author":"张三",
+"img":"2.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2017-5-5",
+   "address":"西安市电子二路C座",
+   "price":"100",
+   "totalpage":"400",
+   "bookid":"213341",
+   "title":"毛豆老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"4",
+"type":"kexue",
+"leixing":"科学",
+"name":"动物科学",
+"author":"李四",
+"img":"3.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2017-5-6",
+   "address":"西安市电子二路C座",
+   "price":"150",
+   "totalpage":"300",
+   "bookid":"656457",
+   "title":"毛豆老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"5",
+"type":"kexue",
+"leixing":"科学",
+"name":"人文科学",
+"author":"刘能",
+"img":"4.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2017-5-7",
+   "address":"西安市电子二路C座",
+   "price":"380",
+   "totalpage":"45",
+   "bookid":"4568743",
+   "title":"毛豆老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"6",
+"type":"kexue",
+"leixing":"科学",
+"name":"历史科学",
+"author":"毛豆",
+"img":"5.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2017-5-8",
+   "address":"西安市电子二路C座",
+   "price":"200",
+   "totalpage":"200",
+   "bookid":"213111",
+   "title":"毛豆老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"7",
+"type":"renwen",
+"leixing":"人文",
+"name":"新青年",
+"author":"杨虎城",
+"img":"1.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2017-5-7",
+   "address":"西安市电子二路C座",
+   "price":"199",
+   "totalpage":"1000",
+   "bookid":"213131",
+   "title":"杨老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"8",
+"type":"renwen",
+"leixing":"人文",
+"name":"论民生",
+"author":"雷伊",
+"img":"1.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"1997-4-8",
+   "address":"西安市电子二路C座",
+   "price":"189",
+   "totalpage":"899",
+   "bookid":"213131",
+   "title":"人文社会科学"
+}
+}
+,
+{
+"id":"9",
+"type":"renwen",
+"leixing":"人文",
+"name":"政治人",
+"author":"冯骥才",
+"img":"1.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2017-5-7",
+   "address":"西安市电子二路C座",
+   "price":"199",
+   "totalpage":"1000",
+   "bookid":"213131",
+   "title":"曹老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"10",
+"type":"jiaoke",
+"leixing":"教科",
+"name":"朝花夕拾",
+"author":"鲁迅",
+"img":"1.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2007-11-12",
+   "address":"西安市电子二路C座",
+   "price":"59",
+   "totalpage":"1000",
+   "bookid":"213131",
+   "title":"鲁老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"11",
+"type":"jiaoke",
+"leixing":"教科",
+"name":"故事新编",
+"author":"鲁迅",
+"img":"1.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2007-11-12",
+   "address":"西安市电子二路C座",
+   "price":"79",
+   "totalpage":"240",
+   "bookid":"47382758",
+   "title":"鲁老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+{
+"id":"12",
+"type":"jiaoke",
+"leixing":"教科",
+"name":"彷徨",
+"author":"鲁迅",
+"img":"1.jpg",
+"num":"1",
+"detailinfo":{
+   "time":"2007-11-12",
+   "address":"西安市电子二路C座",
+   "price":"89",
+   "totalpage":"654",
+   "bookid":"213131",
+   "title":"鲁老师奉献一生，成就此书，要练此书，需先买书！！"
+}
+}
+,
+ {
+ "id":"13",
+ "type":"jiaoke",
+ "leixing":"教科",
+ "name":"呐喊",
+ "author":"鲁迅",
+ "img":"1.jpg",
+ "num":"1",
+ "detailinfo":{
+    "time":"2007-11-12",
+    "address":"西安市电子二路C座",
+    "price":"67",
+    "totalpage":"767",
+    "bookid":"213131",
+    "title":"鲁老师奉献一生，成就此书，要练此书，需先买书！！"
+ }
+ }
+]

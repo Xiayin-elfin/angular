@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="" ng-controller="loginInfocontroller">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/angular.min.js"></script>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+<body>
+<div class="div_login center-block">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="text-center">图书管理系统</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 ">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">
+                        用户名:
+                    </label>
+                    <div class="col-md-10">
+                        <input type="email" class="form-control loginGo" placeholder="推荐使用126邮箱" ng-pattern="/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/" ng-model="a"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">
+                        密码:
+                    </label>
+                    <div class="col-md-10">
+                        <input type="password" class="form-control" placeholder="只能是数字、字母、下划线" ng-model="b"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <button class="btn btn-success btn-lg" ng-click="goToindex()">登录</button>
+                        <button class="btn btn-default btn-lg">注册</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    function loginInfocontroller($scope){
+        $scope.a="";
+        $scope.b="";
+        $scope.goToindex=function(){
+            if (($scope.a!="")&&($scope.b!=""))
+            {
+                window.location="http://localhost:63342/myself_luyou/index.html"
+            }
+            else {
+                alert("Please try again!");
+            }
+        }
+    }
+</script>
+</body>
+</html>
